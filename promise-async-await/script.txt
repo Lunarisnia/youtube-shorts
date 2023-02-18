@@ -1,0 +1,42 @@
+Bite Size Programming
+
+Apa itu Promise?
+Promise pada JavaScript adalah sebuak objek yang mewakilkan nilai 
+yang belum siap pada saat objek dibuat, tetapi akan tersedia atau gagal
+di masa yang akan datang. Sesuai namanya, "Promise" atau "Janji" dalam 
+bahasa indonesia. Promise digunakan untuk menangani
+operasi yang membutuhkan waktu seperti memanggil API dari internet, 
+mengakses Database dan lain sebagainya.
+
+Ketika kita diberikan respond berupa Promise kita dapat bayangkan seperti ini:
+"Gw Janji kok nanti pasti gw kabarin kalo udah selesai."
+
+Mari kita lihat cara memakai Promise: 
+
+Pada skenario ini kita ingin makan nasi, tapi masak nasi nggak instan
+maka fungsi masakNasi akan mengembalikan Promise yang akan ngabarin kita
+apakah nasi kita udah jadi atau gagal.
+
+Pertama kita deklarasikan dulu stock beras kita
+lalu kit a masakNasi dengan stock beras yang ada
+lalu kita Tampilkan hasilnya.
+
+<Show hasil> 
+Loh apa ini? kok begini? ini terjadi karena nasi yang kita minta belum selesai dimasak tapi udah kita minta duluan 
+terus solusinya gmn?
+
+Kita perlu sesuatu yang bisa meminta nasinya hanya ketika masaknya sudah selesai, 
+salah satu jawabannya adalah then catch.
+
+Fungsi then catch adalah fungsi bawaan javascript untuk menangani Promise
+.Then akan selalu jalan apabila promise telah selesai dan sukses
+.Catch hanya akan berjalan apabila promise telah selesai dan gagal
+
+makan kita dapat merubah kode kita jadi seperti ini dan voila.
+<Show code changing from demo01 to demo02 and the result>
+
+Namun cara ini tidak terlalu bagus karena apabila kode kita panjang
+kita akan kebingungan sendiri.
+<Show Contoh callback hell>
+Maka dari itu javascript punya 1 metode lagi yaitu async await, yang akan
+gw jelaskan di Episode selanjutnya.
