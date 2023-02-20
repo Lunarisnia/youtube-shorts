@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "seed": 3202062001,
+  "timeEvents": [
+    {
+      "name": "stopNamain",
+      "targetTime": 0.2228472222222213
+    },
+    {
+      "name": "variabel",
+      "targetTime": 0.3353038194444436
+    },
+    {
+      "name": "kamuKayak",
+      "targetTime": 0.772118055555556
+    }
+  ]
+}

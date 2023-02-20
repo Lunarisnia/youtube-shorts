@@ -7,11 +7,13 @@ Title:
 
 
 Script:
-STOP! BENERIN NAMA VARIABEL KAMU DENGAN TIPS INI
+STOP NAMAIN VARIABEL KAMU KAYAK GINI
+MAU TAU GIMANA YANG BAGUS?
+BERIKUT ADALAH 5 TIPS PENAMAAN VARIABEL YANG BAGUS
 
 1. JANGAN PAKAI VARIABEL 1 HURUF
 Salah satu contoh klasik yang pasti pernah kamu denger adalah
-stop menamakan variabel kamu dengan 1 huruf. Ini jelas banget
+JANGAN namain variabel kamu dengan 1 huruf. Ini jelas banget
 karena variabel kayak gini itu sangat susah untuk dipahamin
 apalagi kalau code kamu panjang dan kamu kerja bareng tim.
 
@@ -31,9 +33,11 @@ kamu akan lebih jelas ke siapapun yang akan pake dimasa depan
 bahwa kamu harus masukin detik ke parameternya.
 
 4. IKUTI POLA KODING YANG SUDAH ADA
-Apabila kamu baru keterima kerja di tempat baru, atau
-ikut project orang, akan sangat baik apabila kamu mengikuti
-pola koding mereka agar source code yang kamu olah lebih konsisten.
+Misalkan kamu baru keterima kerja di tempat baru, atau
+kamu ikut project orang, akan lebih baik apabila kamu ikutin
+pola koding mereka agar source code yang kamu olah lebih konsisten karna.
+Koding dengan aturan jelek, lebih baik daripada tanpa aturan sama sekali.
+--
 seperti apabila kamu pernah pake C# kamu pasti familiar dengan
 pola penamaaan I kapital pada awal nama variabel yang bertipe
 interface.
@@ -46,3 +50,7 @@ Fungsi validateEmail lebih baik kita pindahkan ke kelas Email
 dan getUserWalletBalance lebih baik kita pindahkan ke kelas User
 sendiri dan refactor supaya langsung mereturn balancenya secara langsung tanpa
 searching.
+
+Itulah 4 Tips yang bisa bikin nama variabel kamu jauh lebih
+bagus dan mudah dimengerti. Jangan lupa subscribe, like, atau follow
+dan tunggu episode selanjutnya dari Bite Size Programming

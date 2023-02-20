@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "seed": 2029926218,
+  "timeEvents": [
+    {
+      "name": "gmnYangBagus",
+      "targetTime": 1.0402106501779285
+    },
+    {
+      "name": "empatTips",
+      "targetTime": 2.3398053445482527
+    }
+  ]
+}
