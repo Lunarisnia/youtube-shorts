@@ -1,0 +1,48 @@
+Title: 
+1.STOP! BERENTI NAMAIN VARIABEL KAMU SEPERTI INI
+2.TIPS PENAMAAN VARIABEL YANG BAGUS
+3.PENAMAAN VARIABEL YANG WAJIB DIHINDARI
+4.PENAMAAN VARIABEL DALAM 60DETIK
+5.STOP! BENERIN NAMA VARIABEL KAMU DENGAN TIPS INI
+
+
+Script:
+STOP! BENERIN NAMA VARIABEL KAMU DENGAN TIPS INI
+
+1. JANGAN PAKAI VARIABEL 1 HURUF
+Salah satu contoh klasik yang pasti pernah kamu denger adalah
+stop menamakan variabel kamu dengan 1 huruf. Ini jelas banget
+karena variabel kayak gini itu sangat susah untuk dipahamin
+apalagi kalau code kamu panjang dan kamu kerja bareng tim.
+
+2. JANGAN MENYINGKAT NAMA VARIABEL
+Ini masih terkait dengan yang sebelumnya, karena dua-duanya
+memerlukan konteks yang kamu belum tentu punya. Dengan menyingkat
+nama variabel kamu akan lebih sering baca kode daripada ngoding.
+Coba liat contoh ini: kamu bisa tebak kode ini buat apa?
+<Code change to more clear>
+Kalo gini gmn?
+
+3. PERJELAS APA YANG KAMU MAU
+Contoh kamu punya fungsi yang menerima parameter estimasi waktu
+jika waktu yang kamu mau ini dalam detik, kamu lebih baik perjelas
+dari nama variabelnya seperti, estimatedSeconds. dengan begini fungsi
+kamu akan lebih jelas ke siapapun yang akan pake dimasa depan
+bahwa kamu harus masukin detik ke parameternya.
+
+4. IKUTI POLA KODING YANG SUDAH ADA
+Apabila kamu baru keterima kerja di tempat baru, atau
+ikut project orang, akan sangat baik apabila kamu mengikuti
+pola koding mereka agar source code yang kamu olah lebih konsisten.
+seperti apabila kamu pernah pake C# kamu pasti familiar dengan
+pola penamaaan I kapital pada awal nama variabel yang bertipe
+interface.
+
+5. JANGAN PAKAI NAMA UTILS/HELPER
+Apabila kamu ingin pakai nama utils pikir lagi apakah fungsi itu
+benar-benar sifatnya umum dan tidak bisa kamu grouping ditempat lain saja.
+seperti contoh ini dimana kita punya beberapa fungsi utils.
+Fungsi validateEmail lebih baik kita pindahkan ke kelas Email
+dan getUserWalletBalance lebih baik kita pindahkan ke kelas User
+sendiri dan refactor supaya langsung mereturn balancenya secara langsung tanpa
+searching.
