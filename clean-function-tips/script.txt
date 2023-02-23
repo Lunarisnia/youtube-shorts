@@ -1,0 +1,43 @@
+TITLES:
+1. 4 TIPS MENULIS FUNGSI DENGAN RAPIH
+2. JANGAN NULIS FUNGSI KAYAK GINI! 4 TIPS MENULIS FUNGSI YANG RAPIH
+
+
+Script:
+JANGAN NULIS FUNGSI KAYAK GINI LAGI!
+INI 4 TIPS MENULIS FUNGSI YANG RAPIH.
+
+
+1. PAKAI GAYA PENAMAAN YANG BENAR
+Ini engga wajib tapi disaranin banget kalau kamu
+pake gaya penamaan yang sesuai dengan bahasa atau project
+yang lagi kamu kerjain.
+Contoh di Javascript untuk nama fungsi kamu akan selalu pakai camelCase,
+edangkan di Python kamu akan selalu pakai snake_case.
+Untuk nyari tau gaya penamaan yang standar di setiap bahasa
+kamu bisa google kayak gini:
+"<namaProgram> function naming convention"
+
+2. PASTIIN NAMA FUNGSI KAMU SESUAI
+Nama fungsi yang baik itu bisa ngejelasin tujuannya sendiri. 
+Seperti contoh diawal ini. Nama fungsinya "multiply" yang berarti mengalikan dua angka
+tapi isi fungsinya malah mengurangi dua angka.
+mari kita rubah supaya jelas.
+
+3. KASIH INDENTASI DI KODE KAMU!
+Indentasi itu apa? indetasi itu ngasih spasi di kode kamu.
+Ini mahasiswa paling sering nih ngoding begini.
+Kode rata begini tuh susah banget buat dibaca, jadi
+sebelum kamu kumpulin hasil contekan kamu ke dosen
+plis indent kode kamu biar mata dosen kamu ga sakit.
+
+4. 1 FUNGSI 1 TUJUAN
+Fungsi yang baik adalah fungsi yang ngelakuin 1 hal aja. 
+Jika kamu punya fungsi yang ngelakuin lebih dari 1 hal, 
+ada baiknya kamu pisah beberapa bagian jadi fungsi lain.
+
+Itu tuh 4 Tips Menulis fungsi yang rapih, kalo ada yang mau ditanya silahkan komentar
+dan Jangan Lupa Subscribe like atau follow ya buat episode selanjutnya dari 
+itesize programming
+
+See ya

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "seed": 946977054,
+  "timeEvents": [
+    {
+      "name": "introOne",
+      "targetTime": 1.23876736111111
+    },
+    {
+      "name": "4TIPS",
+      "targetTime": 1.413784722222222
+    },
+    {
+      "name": "4TIPSMENULIS",
+      "targetTime": 1.5582638888888884
+    },
+    {
+      "name": "4TIPSMENULISFUNGSI",
+      "targetTime": 1.7984375000000001
+    }
+  ]
+}
