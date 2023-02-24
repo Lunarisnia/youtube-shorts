@@ -25,21 +25,4 @@ export default makeScene2D(function* (view) {
 
   yield* slideTransition(Direction.Right, 0.2);
   yield* waitFor(10);
-  // yield* satu().text("", 0.1);
-
-  // const badCode = createRef<CodeBlock>();
-  // yield view.add(
-  //   <CodeBlock
-  //     ref={badCode}
-  //     fontSize={55}
-  //     language="ts"
-  //     code={`
-  //   `}
-  //   />
-  // );
-  // yield* badCode().edit(1, false)`${insert(`function draw(estimated: number)`)}`;
-  // yield* waitFor(useDuration("estimated"));
-  // yield* badCode().fontSize(45, 1);
-  // yield* badCode().edit(1, false)`function draw(${edit(`estimated`, `estimatedSeconds`)}: number)`;
-  // yield* waitFor(5);
 });

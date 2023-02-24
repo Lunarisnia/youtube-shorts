@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "seed": 2264916028,
+  "timeEvents": [
+    {
+      "name": "partOnePad",
+      "targetTime": 4.898333333333333
+    }
+  ]
+}

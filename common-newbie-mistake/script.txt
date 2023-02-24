@@ -1,0 +1,58 @@
+Concept: 4 Kesalahan yang sering dilakuin programmer newbie
+Title: KAMU BARU MULAI CODING? JANGAN BIKIN KESALAHAN INI!
+
+
+Script:
+KAMU BARU MULAI CODING? JANGAN BIKIN KESALAHAN INI!
+3 KESALAHAN PEMULA KETIKA BELAJAR NGODING!
+
+
+1. MENGHAFAL SYNTAX
+Lah terus kalo ga menghafal gimana dong bang?.
+Jawabannya itu memahami, beda loh ya sama menghafal
+Dengan memahami kamu mungkin ga selalu inget ditulisnya kayak gmn
+tapi kamu akan selalu tau kapan kamu harus pake suatu syntax itu. 
+Tapi kalau kamu cuma menghafal, ketika dikasih masalah baru yang
+sebenernya solusinya sama, kamu pasti bingung, karna kamu selama Ini
+ga belajar ngoding tapi belajar ngetik dan menghafal doang.
+
+
+
+//Ini ada kode dari berbagai bahasa:
+/*
+
+Ini kesalahan yang paling sering dan paling fatal
+yang dilakuin hampir seluruh pemula. Ini juga bisa jadi
+alasan terbesar kenapa kamu masih ga paham cara ngerjain
+tugas pemrograman kamu, dan kamu udah semester 4.
+
+
+<Show a lot of print from various language>
+Kamu tau apa kesamaan dari mereka semua?
+Mereka semua adalah fungsi untuk menampilkan text
+ke konsol, jadi buat apa kamu hapalin satu-satu?
+*/
+
+
+
+2. MALES GOOGLING
+Jarang banget seorang programmer bisa menyelesaikan
+suatu masalah tanpa googling, kalo kamu bisa ngelakuin itu
+secara terus menerus, kamu antara jenius atau abis ngobat.
+Maka dari itu kalo kamu lupa atau gatau cara ngelakuin suatu hal
+Googling aja, ga perlu mikir kamu bukan programmer kalo kamu
+masih googling, tenang, semua orang juga googling kok.
+Buat bukti, nih search history gw ketika gw lagi ngoding.
+<Show search history, with one funni result slipped in>
+
+
+3. TIDAK MEMECAH MASALAH
+Pernah ga kamu merasa bingung mulai darimana ketika kamu
+baru dapet tugas? itu tandanya masalah yang kamu pengen selesain
+itu terlalu besar buat kamu. Solusinya itu pecah masalah utamanya ke masalah-masalah yang lebih kecil
+Selesaikan 1-1, kemudian gabungkan semua solusi itu buat nyelesain
+masalah utamanya
+
+Nah, dari 3 kesalahan itu, mana yang pernah kamu lakuin?
+Jangan lupa subscribe, like atau follow buat episode selanjutnya
+dari ByteSize Programming, See ya!
