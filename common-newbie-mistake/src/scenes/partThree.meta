@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "seed": 535140026,
+  "timeEvents": [
+    {
+      "name": "MoveDelay",
+      "targetTime": 0.21503394366555972
+    },
+    {
+      "name": "ExpandDelay",
+      "targetTime": 0.5093037269762541
+    },
+    {
+      "name": "TitleDelay",
+      "targetTime": 0.6462956077936823
+    },
+    {
+      "name": "to-Outro",
+      "targetTime": 13.73486314641549
+    }
+  ]
+}

@@ -13,6 +13,10 @@
     {
       "name": "TitleDelay",
       "targetTime": 0.8474888870982286
+    },
+    {
+      "name": "2-to-3",
+      "targetTime": 18.04709755215219
     }
   ]
 }

@@ -36,7 +36,7 @@ export class JetbrainText extends Node {
         fontFamily={'"JetBrains Mono", monospace'}
         maxWidth={1080}
         textWrap={"pre"}
-        justifyContent={"center"}
+        // justifyContent={"center"}
         alignItems={"center"}
         text={() => this.text()}
       />

@@ -1,4 +1,4 @@
-import { Circle, Line, Text } from "@motion-canvas/2d/lib/components";
+import { Circle, Image, Line, Text } from "@motion-canvas/2d/lib/components";
 import { makeScene2D } from "@motion-canvas/2d/lib/scenes";
 import { all, delay, loop, waitFor } from "@motion-canvas/core/lib/flow";
 import { createSignal } from "@motion-canvas/core/lib/signals";
@@ -14,6 +14,7 @@ import {
   useLogger,
 } from "@motion-canvas/core/lib/utils";
 import { JetbrainText } from "../components/jetbrainText";
+import googleLogo from "../images/googleLogo.png";
 
 // TODO: add something thats moving
 // Maybe a google logo with a cross on top of it
@@ -28,6 +29,8 @@ export default makeScene2D(function* (view) {
         y={-150}
       ></JetbrainText>
       <JetbrainText fontSize={185} scale={1} y={50} fill={"#d32f2f"} text={"NGODING!"} />
+      <Image src={googleLogo} height={200} y={400}/>
+      <JetbrainText text={"XXX"} scale={7} y={450} />
     </>
   );
 
@@ -131,25 +134,3 @@ export default makeScene2D(function* (view) {
   
   yield* waitFor(useDuration("partOnePad"));
 });
-
-// [
-//   Vector2.zero, [300, 0], [300, 300], [-400, 300], [-400, 0], [0, 0]
-// ]
-
-// const line = createRef<Line>();
-// view.add(
-//   <Line
-//     stroke={"#fff"}
-//     points={[
-//       [-300, -300],
-//       [-300, 0],
-//       [0, 0],
-//     ]}
-//     lineWidth={10}
-//     arrowSize={10}
-//     ref={line}
-//     startArrow
-//   />
-// );
-
-// yield* line().radius(100, 1);
