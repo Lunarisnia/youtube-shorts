@@ -1,5 +1,114 @@
 {
   "version": 1,
   "seed": 3779771648,
-  "timeEvents": []
+  "timeEvents": [
+    {
+      "name": "MoveDelay",
+      "targetTime": 0.5950674733559417
+    },
+    {
+      "name": "ExpandDelay",
+      "targetTime": 0.978503208651978
+    },
+    {
+      "name": "TitleDelay",
+      "targetTime": 1.318719095479104
+    },
+    {
+      "name": "ShowImage",
+      "targetTime": 2.1535083612303225
+    },
+    {
+      "name": "HideImage",
+      "targetTime": 3.657592491307912
+    },
+    {
+      "name": "GiveTime",
+      "targetTime": 6.3177375660196615
+    },
+    {
+      "name": "D1",
+      "targetTime": 7.0259070619382005
+    },
+    {
+      "name": "D2",
+      "targetTime": 7.636996084251472
+    },
+    {
+      "name": "D2_1",
+      "targetTime": 7.648594507302346
+    },
+    {
+      "name": "D2_2",
+      "targetTime": 7.64259978717178
+    },
+    {
+      "name": "D2_3",
+      "targetTime": 7.645864585666036
+    },
+    {
+      "name": "D3",
+      "targetTime": 8.47756892221432
+    },
+    {
+      "name": "D3_1",
+      "targetTime": 8.475100987762744
+    },
+    {
+      "name": "D3_2",
+      "targetTime": 8.475528746971676
+    },
+    {
+      "name": "D3_3",
+      "targetTime": 8.478231323019408
+    },
+    {
+      "name": "D3_4",
+      "targetTime": 8.478356039628899
+    },
+    {
+      "name": "D3_5",
+      "targetTime": 9.039496956988987
+    },
+    {
+      "name": "D4_1",
+      "targetTime": 9.670987646580148
+    },
+    {
+      "name": "D4_2",
+      "targetTime": 9.910024398257793
+    },
+    {
+      "name": "D4_3",
+      "targetTime": 10.297184309324617
+    },
+    {
+      "name": "D4_4",
+      "targetTime": 10.28938672139505
+    },
+    {
+      "name": "D4_5",
+      "targetTime": 10.293341518507543
+    },
+    {
+      "name": "D4_6",
+      "targetTime": 10.292653724357404
+    },
+    {
+      "name": "D4_7",
+      "targetTime": 10.293449099649482
+    },
+    {
+      "name": "D4_8",
+      "targetTime": 11.0355727323137
+    },
+    {
+      "name": "GiveTimeTo2",
+      "targetTime": 14.87141768814563
+    },
+    {
+      "name": "1-to-2PAD",
+      "targetTime": 18.082001907763292
+    }
+  ]
 }

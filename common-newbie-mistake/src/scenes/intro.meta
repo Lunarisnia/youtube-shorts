@@ -3,8 +3,48 @@
   "seed": 2264916028,
   "timeEvents": [
     {
+      "name": "D1",
+      "targetTime": 1.4590392662128817
+    },
+    {
+      "name": "D2",
+      "targetTime": 1.5965499340932814
+    },
+    {
+      "name": "D3",
+      "targetTime": 1.7218318866116498
+    },
+    {
+      "name": "D4",
+      "targetTime": 1.8449032364337339
+    },
+    {
+      "name": "D5",
+      "targetTime": 2.3280805995062464
+    },
+    {
+      "name": "D6",
+      "targetTime": 2.5499602430164727
+    },
+    {
+      "name": "D7",
+      "targetTime": 2.8044932248663015
+    },
+    {
+      "name": "D8",
+      "targetTime": 3.000968758859149
+    },
+    {
+      "name": "D9",
+      "targetTime": 3.1439868133211446
+    },
+    {
+      "name": "D10",
+      "targetTime": 3.3730947425847844
+    },
+    {
       "name": "partOnePad",
-      "targetTime": 4.898333333333333
+      "targetTime": 3.5554119539890627
     }
   ]
 }
