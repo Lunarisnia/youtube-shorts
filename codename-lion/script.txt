@@ -1,0 +1,55 @@
+TITLE: 3 Alasan frontend lebih keren daripada backend
+
+SCRIPT:
+Kamu bingung mau jadi Frontend atau Backend Developer?
+Mari kita omongin 1-1 mulai dari:
+3 Alasan frontend lebih keren daripada backend
+
+1. BISA DIPAMERIN
+Sebagai Frontend Developer kamu biasanya ngerjain segala
+hal yang terkait visual, seperti desain website, animasi
+dan lain sebagainya, pokoknya apapun yang bisa diliat oleh
+pengguna aplikasi kita, itu kamu yang buat. Selain kamu 
+bisa dapet feedback langsung dari apa yang kamu tulis, 
+kamu juga bisa ngepamerin hasil karya kamu dengan mudah.
+dimanapun!
+<Clip of someone coding in a kirby in HTML>
+<Then the kirby waves>
+<While there it transition to be like a post in instagram or something>
+<And the likes keep increasing><Make the like red to grab more attention>
+<SlideTransition>
+
+2. TUGASNYA SERU
+Sebagai Frontend dev kamu biasanya dapet kerjaan yang akan menguji
+otak kamu seperti bikin tombol yang beranimasi, website yang 
+responsif dan tentunya hidup kamu sebagai programmer bakal
+berwarna banget deh.
+<A Clip of a cursor clicking a button with some ripple effects on a website>
+<Then the website shrink to a phone view>
+<Then the background of the phone is having a color ripple>
+<CUT Trans>
+
+
+2. KAMU ADALAH FOKUS UTAMA
+Sebagai frontend dev yang membuat sebuah tampilan
+aplikasi/website, kamu lah yang menjadi jembatan
+antara pengguna dan backend aplikasi kamu.
+Jadi semua orang akan selalu bisa liat seberapa
+keren dan nyamannya tampilan yang kamu buat
+<A Clip of a cursor clicking a button with some ripple effects on a website>
+<Then the website shrink to a phone view><MANY-MANY PHONES>
+<CUT Trans>
+
+3. KREATIFITAS TINGGI
+Orang Frontend itu selain jago disisi teknis, mereka juga
+kreatif2 banget dalam menyelesaikan sebuah masalah walaupun
+banyak batasan yang perlu diperhatikan.
+<Some basic shapes arranged randomly>
+<Then It rearanges to show a house>
+
+
+nah dari 3 alasan itu kita tau kalo frontend itu cocok
+banget buat kamu yang suka hal kreatif,
+selanjutnya kita akan bahas soal backend, jadi jangan
+lupa subscribe like atau follow buat episode selanjutnya
+dari BYTESIZE PROGRAMMING, See ya!

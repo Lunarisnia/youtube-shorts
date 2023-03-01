@@ -49,29 +49,22 @@ export class TitleScreen extends Node {
           width={2000}
           height={2000}
           fill={"#525252"}
+          layout
+          direction={"column"}
+          justifyContent={"center"}
         >
           <JetbrainText
-            text={`1`}
+            text={`3`}
             fontSize={300}
-            y={-500}
-            x={-260}
-            rotation={-30}
+            x={450}
+            justifyContent={"center"}
+            alignContent={"center"}
           />
-          <JetbrainText
-            text={`CARA`}
-            fontSize={300}
-            y={-300}
-            x={200}
-            rotation={30}
-          />
-          <JetbrainText
-            text={`MELAKUKAN`}
-            fontSize={200}
-            y={-20}
-            rotation={20}
-          />
-          <JetbrainText text={`SUATU`} fontSize={300} y={250} rotation={20} />
-          <JetbrainText text={`HAL`} fontSize={300} y={600} rotation={30} />
+          <JetbrainText text={`ALASAN`} fontSize={200} x={630} />
+          <JetbrainText text={`FRONTEND`} fontSize={200} x={520} />
+          <JetbrainText text={`LEBIH KEREN`} fontSize={150} x={500} />
+          <JetbrainText text={`DARI`} fontSize={150} x={800} />
+          <JetbrainText text={`BACKEND`} fontSize={150} x={670} />
         </Circle>
       </>
     );
@@ -101,7 +94,7 @@ export class TitleScreen extends Node {
     yield* tween(0.2, (value) => {
       this.container().scale(easeInOutCubic(value, 1, 0));
     });
-    yield* tween(1, (value) => {
+    yield* tween(2, (value) => {
       this.explosion().scale(easeOutCubic(value, 0, 1));
     });
     yield* tween(0.2, (value) => {

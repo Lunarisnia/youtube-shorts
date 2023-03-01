@@ -205,7 +205,11 @@ export class TechNumber extends Node {
           opacity={0}
           y={250}
         >
-          <JetbrainText fontSize={70} text={() => this.sub1()} justifyContent={"center"} />
+          <JetbrainText
+            fontSize={70}
+            text={() => this.sub1()}
+            justifyContent={"center"}
+          />
           <JetbrainText
             text={() => this.sub2()}
             fontSize={70}
@@ -221,7 +225,7 @@ export class TechNumber extends Node {
     );
   }
 
-  public *animate() {
+  public *animate(duration: number) {
     yield* this.scanlinePoints(
       [
         [100, 0],
@@ -229,9 +233,9 @@ export class TechNumber extends Node {
         [-100, 0.001],
         [100, 0.002],
       ],
-      0.2
+      0.2 * duration
     );
-    yield* waitFor(0.1);
+    yield* waitFor(0.1 * duration);
     yield* this.scanlinePoints(
       [
         [100, 0],
@@ -239,7 +243,7 @@ export class TechNumber extends Node {
         [-100, 100],
         [100, 100],
       ],
-      0.2
+      0.2 * duration
     );
     yield* this.textScale(1, 0);
     yield* this.chapterTextNumber(this.chapterTextNumber(), 0);
@@ -250,7 +254,7 @@ export class TechNumber extends Node {
         [-100, 100],
         [100, 100],
       ],
-      0.2
+      0.2 * duration
     );
     yield* all(
       this.scanlinePoints(
@@ -260,19 +264,19 @@ export class TechNumber extends Node {
           [-100, 100],
           [100, 100],
         ],
-        0.2
+        0.2 * duration
       ),
       delay(
-        0.05,
-        tween(0.2, (value) => {
+        0.05 * duration,
+        tween(0.2 * duration, (value) => {
           this.textPosition(easeInOutCubic(value, 0, 1));
         })
       )
     );
-    yield* waitFor(0.2);
+    yield* waitFor(0.2 * duration);
     yield* all(
       delay(
-        0.05,
+        0.05 * duration,
         this.scanlinePoints(
           [
             [100, 100.001],
@@ -280,18 +284,18 @@ export class TechNumber extends Node {
             [-100, 100],
             [100, 100],
           ],
-          0.2
+          0.2 * duration
         )
       ),
-      tween(0.2, (value) => {
+      tween(0.2 * duration, (value) => {
         this.textPosition(easeInOutCubic(value, 1, 0));
       }),
-      tween(0.4, (value) => {
+      tween(0.4 * duration, (value) => {
         this.layoutContainer().opacity(easeInOutCubic(value, 0, 1));
       })
     );
-    yield* tween(0.3, value => {
-      this.container().position.y(easeInOutCubic(value, 0, -750))
-    })
+    yield* tween(0.3 * duration, (value) => {
+      this.container().position.y(easeInOutCubic(value, 0, -750));
+    });
   }
 }
