@@ -203,7 +203,7 @@ export class TechNumber extends Node {
           layout
           direction={"column"}
           opacity={0}
-          y={200}
+          y={250}
         >
           <JetbrainText fontSize={70} text={() => this.sub1()} justifyContent={"center"} />
           <JetbrainText
@@ -290,5 +290,8 @@ export class TechNumber extends Node {
         this.layoutContainer().opacity(easeInOutCubic(value, 0, 1));
       })
     );
+    yield* tween(0.3, value => {
+      this.container().position.y(easeInOutCubic(value, 0, -750))
+    })
   }
 }
