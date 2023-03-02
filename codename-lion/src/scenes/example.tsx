@@ -15,6 +15,6 @@ export default  makeScene2D(function* (view) {
     <TitleScreen ref={titleTransition} />
   );
   yield* titleTransition().animate();
-  yield* opening().animate();
+  yield* opening().animate(1);
   yield* waitFor(5);
 });
