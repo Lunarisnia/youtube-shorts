@@ -21,6 +21,7 @@ import cursor from "../../images/cursor.png";
 import debit from "../../images/debit.svg";
 import inventory from "../../images/inventory.png";
 import database from "../../images/database.svg";
+import circleCheck from "../../images/checkCircle.svg";
 import { CheckmarkLogo } from "../../components/checkmarkLogo";
 
 export default makeScene2D(function* (view) {
@@ -45,6 +46,7 @@ export default makeScene2D(function* (view) {
   const debitIcon = createRef<CheckmarkLogo>();
   const inventoryIcon = createRef<CheckmarkLogo>();
   const databaseIcon = createRef<CheckmarkLogo>();
+  const successMenu = createRef<Node>();
   view.add(
     <>
       <TechNumber
@@ -88,15 +90,29 @@ export default makeScene2D(function* (view) {
               stroke={"#0193b5"}
             />
           </Node>
+          <Node ref={successMenu} opacity={0}>
+            <Image src={circleCheck} y={-300} height={300} />
+            <JetbrainText text={`Pembelian Sukses!`} />
+          </Node>
         </Rect>
         <Image ref={mouse} height={100} position={[0, 1200]} src={cursor} />
       </Node>
 
-      <Node ref={backendContainer} x={-400}>
+      <Node ref={backendContainer} x={0} scale={0} opacity={0}>
         <>
           <CheckmarkLogo ref={debitIcon} src={debit} height={400} />
-          <CheckmarkLogo ref={inventoryIcon} src={inventory} height={250} x={400} />
-          <CheckmarkLogo ref={databaseIcon} src={database} height={300} x={750} />
+          <CheckmarkLogo
+            ref={inventoryIcon}
+            src={inventory}
+            height={250}
+            x={400}
+          />
+          <CheckmarkLogo
+            ref={databaseIcon}
+            src={database}
+            height={300}
+            x={750}
+          />
         </>
       </Node>
     </>
@@ -142,10 +158,29 @@ export default makeScene2D(function* (view) {
     loadingCircle().endAngle(100, 1),
     loadingCircle().startAngle(360, 1),
     delay(0.5, shopContainer().scale(50, 1)),
-    delay(0.7, shopContainer().opacity(0, 0.2))
+    delay(0.7, shopContainer().opacity(0, 0.2)),
+    delay(0.5, backendContainer().scale(1, 1)),
+    delay(0.5, backendContainer().opacity(1, 1))
   );
-  yield* debitIcon().markComplete();
-  yield* inventoryIcon().markComplete();
+  yield* waitFor(0.8),
+    yield* all(
+      debitIcon().markComplete(),
+      backendContainer().position.x(-400, 1)
+    );
+  yield* all(
+    inventoryIcon().markComplete(),
+    backendContainer().position.x(-400 - 350, 1)
+  );
   yield* databaseIcon().markComplete();
-  yield* waitFor(10);
+  yield* waitFor(0.5);
+  yield* loadingMenu().opacity(0, 0);
+  yield* successMenu().opacity(1, 0);
+  yield* all(
+    delay(0.5, backendContainer().scale(50, 1)),
+    delay(0.7, backendContainer().opacity(0, 0.2)),
+    delay(0.5, shopContainer().scale(1, 1)),
+    delay(0.5, shopContainer().opacity(1, 1))
+  );
+  yield* mouse().position([1200, 300], 1)
+  yield* waitFor(3.5);
 });
