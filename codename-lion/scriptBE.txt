@@ -1,0 +1,55 @@
+title: 3 ALASAN KENAPA KAMU HARUS JADI BACKEND DEVELOPER
+
+
+SCRIPT:
+3 ALASAN KENAPA KAMU HARUS JADI BACKEND DEVELOPER!
+
+
+1. KAMU ADALAH PONDASI UTAMA
+Kalo frontend itu body mobil ferrari, kamu itu
+mesinnya, kamu adalah orang yang ngelakuin hal-hal
+<Picture of a ferrari><with frontend text overlayed>
+<Picture of the machine diagram><with backend text overlayed>
+rumit dibelakang kamera agar semuanya bisa berjalan dengan lancar.
+itu backend.
+<Picture of a film crew filming with text on top showing frontend and backend>
+
+Seperti saat user menekan tombol beli di olshop, user ga akan bisa liat
+bahwa dibelakang ada pengecekan saldo, pengecekan stok barang, membaca dan menyimpan
+data di database dan lain sebagainya, yang user bisa lihat hanyalah halaman
+"Pesanan telah selesai", tanpa tau bahwa kamu lah yang membuat hidup mereka
+jauh lebih nyaman.
+<Animastion of a buy button being clicked>
+<Then it change to a loading page>
+<Then it zooms then change to>
+<A Row of Icons, a square moving slowly to do checks and then>
+<A Check pops up one after the other>
+<Everytime there is a network connection there is going to be a line going back and forth>
+
+2. LOGIC SKILL TERASAH
+Dari membuat database yang efisien, sampai membuat AI semacam ChatGPT
+<Show DB Icon, and then ChatGPT>
+Masalah yang dihadapi oleh backend developer dijamin akan mengasah
+skill berfikir logis kamu dan juga atensi kamu ke detil-detil kecil.
+<Show a task to display number from 1-3 but it only show 1-2 then it fix the bug which is just changing < to <= >
+
+3. RANAHNYA LUAS
+Backend itu luas banget dan ga akan cukup 1 menit buat disebutin semua, tapi:
+Kamu suka mengolah data untuk melakukan prediksi atau bahkan membuat AI?
+Data Science! btw data science itu salah satu hobi favorit gw!
+<Data Science logo>
+
+Kamu suka bereksperimen tentang cybersecurity?:
+Security Engineer!
+<Security Engineer Logo>
+
+Kamu Suka mengatur server dan jaringan?:
+Network Engineer!
+<Network Engineer logo>
+
+DAN MASIH BANYAK LAGI!
+
+Nah Gimana, tertarik ga jadi orang backend?
+Jangan lupa subscribe like atau follow ya buat 
+episode selanjutnya dari Bytesize Programming
+

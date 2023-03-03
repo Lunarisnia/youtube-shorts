@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.7 122.24">
+  <g>
+    <g>
+      <polyline points="29.77 16.46 137.44 16.46 115.83 77.23 37.52 77.23 15.09 3 0 3" fill="none" stroke="#ef455d" stroke-miterlimit="10" stroke-width="6"/>
+      <polyline points="100.74 98.84 48.94 98.84 48.94 77.23" fill="none" stroke="#ef455d" stroke-miterlimit="10" stroke-width="6"/>
+    </g>
+    <line x1="108.49" y1="25.02" x2="100.74" y2="63.36" fill="none" stroke="#ef455d" stroke-miterlimit="10" stroke-width="6"/>
+    <line x1="91.15" y1="25.02" x2="83.4" y2="63.36" fill="none" stroke="#ef455d" stroke-miterlimit="10" stroke-width="6"/>
+    <line x1="73.81" y1="25.02" x2="66.06" y2="63.36" fill="none" stroke="#ef455d" stroke-miterlimit="10" stroke-width="6"/>
+    <line x1="56.48" y1="25.02" x2="48.73" y2="63.36" fill="none" stroke="#ef455d" stroke-miterlimit="10" stroke-width="6"/>
+    <circle cx="46.08" cy="112.71" r="6.53" fill="none" stroke="#ef455d" stroke-miterlimit="10" stroke-width="6"/>
+    <circle cx="101.96" cy="112.71" r="6.53" fill="none" stroke="#ef455d" stroke-miterlimit="10" stroke-width="6"/>
+  </g>
+</svg>
