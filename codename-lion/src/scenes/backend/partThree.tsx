@@ -1,6 +1,6 @@
 import { Image, Node, Rect } from "@motion-canvas/2d/lib/components";
 import { makeScene2D } from "@motion-canvas/2d/lib/scenes";
-import { all, waitFor } from "@motion-canvas/core/lib/flow";
+import { all, delay, waitFor } from "@motion-canvas/core/lib/flow";
 import { createRef, useDuration } from "@motion-canvas/core/lib/utils";
 import { JetbrainText } from "../../components/jetbrainText";
 import { TechNumber } from "../../components/techNumber";
@@ -89,7 +89,7 @@ export default makeScene2D(function* (view) {
   yield* waitFor(1);
   yield* timer().text("00:41", 0);
   yield* waitFor(1);
-  yield* all(timer().text("00:42", 0), timer().position.x(1200, 1));
+  yield* all(timer().text("00:42", 0), timer().position.x(-1200, 1));
   yield* all(
     tfIcon().position.y(-200, 1),
     pytorchIcon().position.y(100, 1),
@@ -109,25 +109,25 @@ export default makeScene2D(function* (view) {
   yield* dataScienceText().text("SECURITY\nENGINEER", 0);
   yield* all(cryptoIcon().position.y(0, 1), hackerIcon().position.y(600, 1));
   yield* waitFor(1);
-  yield* textContainer().position.y(0, 0);
-  yield* waitFor(1);
-  yield* textContainer().position.y(1200, 0);
   yield* all(
     cryptoIcon().position.y(1200, 0.5),
     hackerIcon().position.y(1200, 0.5)
   );
+  yield* textContainer().position.y(0, 0);
+  yield* waitFor(1);
+  yield* textContainer().position.y(1200, 0);
   yield* all(
     databaseIcon().position.y(0, 0.5),
     wifiIcon().position.y(500, 0.5)
   );
   yield* dataScienceText().text("NETWORK\nENGINEER", 0);
-  yield* waitFor(1);
-  yield* textContainer().position.y(0, 0);
-  yield* waitFor(1);
-  yield* textContainer().position.y(1200, 0);
+  yield* waitFor(0.3);
   yield* all(
     databaseIcon().position.y(1200, 0.5),
-    wifiIcon().position.y(1200, 0.5)
+    wifiIcon().position.y(1200, 0.5),
+    delay(0.5, textContainer().position.y(0, 0))
   );
+  yield* textContainer().position.y(0, 0);
+  yield* waitFor(1);
   yield* waitFor(1);
 });

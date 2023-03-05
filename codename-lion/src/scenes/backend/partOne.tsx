@@ -23,6 +23,8 @@ import inventory from "../../images/inventory.png";
 import database from "../../images/database.svg";
 import circleCheck from "../../images/checkCircle.svg";
 import { CheckmarkLogo } from "../../components/checkmarkLogo";
+import { slideTransition } from "@motion-canvas/core/lib/transitions";
+import { Direction } from "@motion-canvas/core/lib/types";
 
 export default makeScene2D(function* (view) {
   // Create your animations here
