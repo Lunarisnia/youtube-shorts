@@ -1,4 +1,4 @@
-import { makeProject } from "@motion-canvas/core/lib";
+import { makeProject } from "@motion-canvas/core";
 import { Vector2 } from "@motion-canvas/core/lib/types";
 
 import intro from "./scenes/backend/intro?scene";
@@ -11,7 +11,5 @@ import audio from "../audio/beBetter_mixdown.wav";
 
 export default makeProject({
   scenes: [intro, partOne, partTwo, partThree, outro],
-  background: "#141414",
-  size: new Vector2(1080, 1920),
-  audio: audio,
+  audio: audio
 });

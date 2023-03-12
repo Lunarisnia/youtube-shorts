@@ -1,4 +1,4 @@
-import { Image, Node, Rect } from "@motion-canvas/2d/lib/components";
+import { Img, Node, Rect } from "@motion-canvas/2d/lib/components";
 import { makeScene2D } from "@motion-canvas/2d/lib/scenes";
 import { all, delay, waitFor } from "@motion-canvas/core/lib/flow";
 import { createRef, useDuration } from "@motion-canvas/core/lib/utils";
@@ -21,18 +21,18 @@ export default makeScene2D(function* (view) {
   const opening = createRef<TechNumber>();
   const timer = createRef<JetbrainText>();
 
-  const tfIcon = createRef<Image>();
+  const tfIcon = createRef<Img>();
   const pytorchIcon = createRef<Rect>();
-  const numpyIcon = createRef<Image>();
-  const gptIcon = createRef<Image>();
+  const numpyIcon = createRef<Img>();
+  const gptIcon = createRef<Img>();
   const dataScienceText = createRef<JetbrainText>();
   const textContainer = createRef<Rect>();
 
-  const cryptoIcon = createRef<Image>();
-  const hackerIcon = createRef<Image>();
+  const cryptoIcon = createRef<Img>();
+  const hackerIcon = createRef<Img>();
 
-  const databaseIcon = createRef<Image>();
-  const wifiIcon = createRef<Image>();
+  const databaseIcon = createRef<Img>();
+  const wifiIcon = createRef<Img>();
   view.add(
     <>
       <TechNumber
@@ -42,7 +42,7 @@ export default makeScene2D(function* (view) {
       />
       <JetbrainText text={`00:39`} fontSize={250} y={1200} ref={timer} />
 
-      <Image ref={tfIcon} src={tf} height={350} y={1100} />
+      <Img ref={tfIcon} src={tf} height={350} y={1100} />
       <Rect
         ref={pytorchIcon}
         fill={"#3a3a3a"}
@@ -52,10 +52,10 @@ export default makeScene2D(function* (view) {
         height={300}
         y={1100}
       >
-        <Image src={pytorch} height={200} />
+        <Img src={pytorch} height={200} />
       </Rect>
-      <Image ref={numpyIcon} src={numpy} height={300} y={1100} />
-      <Image ref={gptIcon} src={gpt} height={300} y={1110} />
+      <Img ref={numpyIcon} src={numpy} height={300} y={1100} />
+      <Img ref={gptIcon} src={gpt} height={300} y={1110} />
       <Rect
         zIndex={5}
         ref={textContainer}
@@ -73,12 +73,12 @@ export default makeScene2D(function* (view) {
         />
       </Rect>
 
-      <Image ref={cryptoIcon} src={cryptograph} height={400} y={1200} />
-      <Image ref={hackerIcon} src={hacker} height={500} y={1200} />
+      <Img ref={cryptoIcon} src={cryptograph} height={400} y={1200} />
+      <Img ref={hackerIcon} src={hacker} height={500} y={1200} />
 
 
-      <Image ref={databaseIcon} src={database} x={20} height={600} y={1200} />
-      <Image ref={wifiIcon} src={wifi} x={20} height={400} y={1200} />
+      <Img ref={databaseIcon} src={database} x={20} height={600} y={1200} />
+      <Img ref={wifiIcon} src={wifi} x={20} height={400} y={1200} />
     </>
   );
   yield* opening().animate(1);

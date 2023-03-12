@@ -1,19 +1,19 @@
-import { Image, ImageProps, Node } from "@motion-canvas/2d/lib/components";
+import { Img, ImgProps, Node } from "@motion-canvas/2d/lib/components";
 import { easeOutBounce, tween } from "@motion-canvas/core/lib/tweening";
 import { createRef } from "@motion-canvas/core/lib/utils";
 import checkCircle from "../images/checkCircle.svg";
 
-export interface CheckmarkLogoProps extends ImageProps {}
+export interface CheckmarkLogoProps extends ImgProps {}
 
 export class CheckmarkLogo extends Node {
-  private checkmark = createRef<Image>();
+  private checkmark = createRef<Img>();
 
   public constructor(props?: CheckmarkLogoProps) {
     super({ ...props });
 
     this.add(
       <Node>
-        <Image
+        <Img
           ref={this.checkmark}
           src={checkCircle}
           height={80}
@@ -21,7 +21,7 @@ export class CheckmarkLogo extends Node {
           y={-100}
           scale={0}
         />
-        <Image src={props.src} height={props.height} />
+        <Img src={props.src} height={props.height} />
       </Node>
     );
   }

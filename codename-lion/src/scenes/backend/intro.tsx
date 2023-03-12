@@ -1,4 +1,4 @@
-import { Image, Node } from "@motion-canvas/2d/lib/components";
+import { Img, Node } from "@motion-canvas/2d/lib/components";
 import { makeScene2D } from "@motion-canvas/2d/lib/scenes";
 import { all, delay, waitFor } from "@motion-canvas/core/lib/flow";
 import { createRef, useDuration } from "@motion-canvas/core/lib/utils";
@@ -33,7 +33,7 @@ export default makeScene2D(function* (view) {
           y={500}
         />
         <JetbrainText text={"DEVELOPER?"} fontSize={140} y={680} />
-        <Image src={dollar} y={1000} />
+        <Img src={dollar} y={1000} />
       </Node>
       <TitleScreen ref={titleTransition} />
     </>

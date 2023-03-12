@@ -1,6 +1,6 @@
 import {
   Circle,
-  Image,
+  Img,
   Layout,
   Node,
   Rect,
@@ -30,9 +30,9 @@ export default makeScene2D(function* (view) {
   // Create your animations here
   const opening = createRef<TechNumber>();
 
-  const ferrariCar = createRef<Image>();
-  const ferrariMachine = createRef<Image>();
-  const avenger = createRef<Image>();
+  const ferrariCar = createRef<Img>();
+  const ferrariMachine = createRef<Img>();
+  const avenger = createRef<Img>();
 
   const shopContainer = createRef<Node>();
   const buyButton = createRef<Rect>();
@@ -43,7 +43,7 @@ export default makeScene2D(function* (view) {
 
   const backendContainer = createRef<Node>();
 
-  const mouse = createRef<Image>();
+  const mouse = createRef<Img>();
 
   const debitIcon = createRef<CheckmarkLogo>();
   const inventoryIcon = createRef<CheckmarkLogo>();
@@ -57,14 +57,14 @@ export default makeScene2D(function* (view) {
         sub1={"KAMU PONDASI UTAMA"}
       />
 
-      <Image ref={ferrariCar} x={2800} src={ferrari} height={500} />
-      <Image ref={ferrariMachine} x={2800} src={ferrariEngine} height={500} />
-      <Image ref={avenger} x={2800} src={tony} height={500} />
+      <Img ref={ferrariCar} x={2800} src={ferrari} height={500} />
+      <Img ref={ferrariMachine} x={2800} src={ferrariEngine} height={500} />
+      <Img ref={avenger} x={2800} src={tony} height={500} />
 
       <Node ref={shopContainer} y={1600}>
         <Rect width={1000} height={1200} fill={"#424242"} radius={100}>
           <Node ref={buyMenu}>
-            <Image src={cart} y={-300} />
+            <Img src={cart} y={-300} />
             <JetbrainText
               y={-100}
               justifyContent={"center"}
@@ -93,11 +93,11 @@ export default makeScene2D(function* (view) {
             />
           </Node>
           <Node ref={successMenu} opacity={0}>
-            <Image src={circleCheck} y={-300} height={300} />
+            <Img src={circleCheck} y={-300} height={300} />
             <JetbrainText text={`Pembelian Sukses!`} />
           </Node>
         </Rect>
-        <Image ref={mouse} height={100} position={[0, 1200]} src={cursor} />
+        <Img ref={mouse} height={100} position={[0, 1200]} src={cursor} />
       </Node>
 
       <Node ref={backendContainer} x={0} scale={0} opacity={0}>

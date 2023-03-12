@@ -1,4 +1,4 @@
-import { Node, Text, TextProps } from "@motion-canvas/2d/lib/components";
+import { Node, Txt, TxtProps } from "@motion-canvas/2d/lib/components";
 import {
   colorSignal,
   initial,
@@ -9,7 +9,7 @@ import { SignalValue, SimpleSignal } from "@motion-canvas/core/lib/signals";
 import { textLerp } from "@motion-canvas/core/lib/tweening";
 import { ColorSignal, PossibleColor } from "@motion-canvas/core/lib/types";
 
-export interface JetbrainTextProps extends TextProps {
+export interface JetbrainTextProps extends TxtProps {
   fill?: SignalValue<PossibleColor>;
   children?: string;
   text?: SignalValue<string>;
@@ -42,7 +42,7 @@ export class JetbrainText extends Node {
     super({ ...props });
 
     this.add(
-      <Text
+      <Txt
         zIndex={props.zIndex}
         ref={props.ref}
         fontSize={props.fontSize}
